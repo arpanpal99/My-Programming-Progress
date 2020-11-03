@@ -30,16 +30,6 @@ h3 {
 	padding: 25px 25px 10px 5px;
 }
 
-@media (max-width: 1200px) {
-	.this-page {
-		margin-bottom: 20px;
-		padding: 18px 0px !important;
-	}
-	.mainc.container {
-		padding: 60px !important;
-	}
-}
-
 footer {
 	color: floralwhite;
 	border-radius: 0;
@@ -47,7 +37,7 @@ footer {
 	margin-top: 50px;
 }
 footer .row {
-	padding: 60px 0px 60px;
+	padding: 40px 0px 40px;
 }
 .around-border {
 	margin-top: 10px !important;
@@ -56,6 +46,38 @@ footer .row {
 	text-decoration: none;
 }
 
+
+
+
+
+
+@media (max-width: 1200px) {
+	
+	h2 {
+		font-size: 50px !important;
+	}
+
+	li {
+		font-size: 24px;
+		padding: 10px 0px;
+	}
+	footer .around-border, p {
+		font-size: 20px;
+	}
+	footer h3 {
+		font-size: 30px;
+	}
+	.prog-list-border {
+		padding: 50px 80px;
+	}
+	.this-page {
+		margin-bottom: 20px;
+		padding: 18px 0px !important;
+	}
+	.mainc.container {
+		padding: 30px 60px 60px !important;
+	}
+}
 
 
 
