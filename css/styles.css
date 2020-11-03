@@ -9,7 +9,7 @@ body {
 .btn {
 	width: 100%;
 }
-.my-hack-profile {
+#profile-top {
 	margin: 20px 0px 10px;
 }
 h1:hover, #hack-header:hover {
@@ -29,7 +29,9 @@ h3 {
 	margin-top: 10px;
 	padding: 25px 25px 10px 5px;
 }
-
+.prog-list-border h6 {
+	margin-bottom: 30px;
+}
 footer {
 	color: floralwhite;
 	border-radius: 0;
@@ -42,35 +44,65 @@ footer .row {
 .around-border {
 	margin-top: 10px !important;
 }
-#top:hover {
+#top-button:hover {
 	text-decoration: none;
+}
+#top-div {
+		margin: 0px auto;
+		width: 50%;
+		border: 1px solid black;
+		padding: 10px;
+		margin-top: 50px;
+}
+.engineer {
+	font-size: 40px;
 }
 
 
 
 
 
-
 @media (max-width: 1200px) {
+	#profile-top {
+		padding: 30px;
+		font-size: 25px;
+	}
+	#hack-header {
+		margin-bottom: 60px;
+	}
 	h1 {
 		font-size: 47px !important;
 	}
 	h2 {
-		font-size: 50px !important;
+		font-size: 40px !important;
 	}
-
+	#hack-site-ref a {
+		font-size: 25px;
+	}
 	li {
 		font-size: 24px;
-		padding: 10px 0px;
+		padding: 0px 0px;
+	}
+	#top-div {
+		margin: 0px auto;
+		width: 50%;
+		border: 1px solid black;
+		padding: 10px;
+		font-size: 30px;
+		margin-top: 50px;
+	}
+	.prog-list-border h6 {
+		font-size: 1.6em;
 	}
 	.prog-list-border {
 		padding: 50px 80px;
 	}
 	.this-page {
 		margin-bottom: 20px;
-		padding: 18px 0px !important;
+		padding: 25px 0px !important;
 	}
 	.mainc.container {
+		min-width: 90px;
 		padding: 30px 60px 60px !important;
 	}
 	footer .around-border, p {
@@ -97,4 +129,7 @@ footer .row {
 }
 #rec-list {
 	background-color: #C0D6FF;
+}
+#implem-very-easy, #implem-easy, #io-very-easy, #io-easy, #rec-very-easy, #rec-easy {
+	margin-bottom: 100px;
 }
