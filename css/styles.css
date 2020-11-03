@@ -76,7 +76,7 @@ footer .row {
 	h2 {
 		font-size: 40px !important;
 	}
-	h3 {
+	.prog-list-border h3 {
 		font-size: 50px !important;
 	}
 	#hack-site-ref a {
