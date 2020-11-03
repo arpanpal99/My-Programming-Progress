@@ -1,6 +1,7 @@
 .jumbotron {
-	border: 0.5px solid darkblue;
+	border-bottom: 0.5px solid darkblue;
 	border-radius: 0 !important;
+	padding: 50px !important;
 }
 body {
 	background-color: #FAEAFF !important;
@@ -9,7 +10,7 @@ body {
 	width: 100%;
 }
 .my-hack-profile {
-	width: 40%;
+	margin: 20px 0px 10px;
 }
 h1:hover, #hack-header:hover {
   text-decoration: none;
@@ -29,8 +30,44 @@ h3 {
 	padding: 25px 25px 10px 5px;
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (max-width: 1200px) {
 	.this-page {
-		padding: 8.5% !important;
+		margin-bottom: 20px;
+		padding: 18px 0px !important;
 	}
+	.mainc.container {
+		padding: 60px !important;
+	}
+}
+
+footer {
+	color: floralwhite;
+	border-radius: 0;
+	border-top: 1px solid darkblue;
+	margin-top: 50px;
+}
+footer .row {
+	padding: 60px 0px 60px;
+}
+.around-border {
+	margin-top: 10px !important;
+}
+#top:hover {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+#implem-list {
+	background-color: #FFC6C6;
+}
+#io-list {
+	background-color: #BBFF96;
+}
+#rec-list {
+	background-color: #C0D6FF;
 }

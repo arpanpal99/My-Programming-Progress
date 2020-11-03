@@ -1,3 +1,5 @@
 https://www.w3schools.com/cssref/css_selectors.asp
 
+https://getbootstrap.com/docs/4.0/utilities/display/
+
 https://www.pluralsight.com/guides/how-to-use-gitignore-file
