@@ -61,12 +61,6 @@ footer .row {
 		font-size: 24px;
 		padding: 10px 0px;
 	}
-	footer .around-border, p {
-		font-size: 20px;
-	}
-	footer h3 {
-		font-size: 30px;
-	}
 	.prog-list-border {
 		padding: 50px 80px;
 	}
@@ -76,6 +70,15 @@ footer .row {
 	}
 	.mainc.container {
 		padding: 30px 60px 60px !important;
+	}
+	footer .around-border, p {
+		font-size: 20px;
+	}
+	footer h3 {
+		font-size: 30px;
+	}
+	footer .container {
+		min-width: 900px;
 	}
 }
 

@@ -3,6 +3,5 @@ git status
 git add .
 git status
 git commit -m "My Webpage Update"
-PAUSE
 git push
 PAUSE
