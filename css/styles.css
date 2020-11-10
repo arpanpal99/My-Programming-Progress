@@ -59,15 +59,18 @@ footer .row {
 }
 
 
-
-
-
+@media (min-width: 1200px) {
+	#hack-head-div {
+		width: 500px;
+		margin: 0px auto;
+	}
+}
 @media (max-width: 1200px) {
 	#profile-top {
 		padding: 30px;
 		font-size: 25px;
 	}
-	#hack-header {
+	#hack-head-div {
 		margin-bottom: 60px;
 	}
 	h1 {
